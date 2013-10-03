@@ -8,6 +8,7 @@
  * @since vantage 1.0
  * @license GPL 2.0
  */
+ $db = mysqli_connect("localhost", "hack", "hthon", "wordpress") or die("Error: " . mysqli_error($db));
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
