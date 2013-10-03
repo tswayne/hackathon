@@ -24,6 +24,7 @@
 
 	<link href="../wp-content/themes/vantage/css/main.css" rel="stylesheet" />
 	<link href="../wp-content/themes/vantage/css/sponsor.css" rel="stylesheet" />
+	<link href="../wp-content/themes/vantage/css/listing.css" rel="stylesheet" />
 		
 </head>
 

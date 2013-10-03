@@ -10,6 +10,8 @@
  */
 get_header(); ?>
 
+<?php echo the_ID(); ?>
+
 <div class="page-sponsor">
 	<h1>Become a Sponsor</h1>
 	<form class="sponsor-form row">
