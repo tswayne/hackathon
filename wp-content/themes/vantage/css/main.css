@@ -5,7 +5,9 @@
  *
 **/
 body {
+	color: #d8e3e9;
 	font: 12px "Droid Serif", sans-serif;
+	background: #000;
 }
 
 h1, h2 {
@@ -18,6 +20,9 @@ h1, h2 {
 	top:0;
 	left: 0;
 	z-index: 100;
+	-webkit-box-shadow: 0 8px 8px -8px #fff;
+	-moz-box-shadow: 0 8px 8px -8px #fff;
+        box-shadow: 0 8px 8px -8px #fff	;
 }
 
 .head-nav, .head-misc {
