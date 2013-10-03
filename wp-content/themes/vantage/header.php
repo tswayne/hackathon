@@ -22,7 +22,7 @@
 	<link href="../wp-content/themes/vantage/bootstrap.min.css" rel="stylesheet" />
 	
 	<?php wp_head(); ?>
-
+	<script src="http://code.jquery.com/jquery-2.0.3.js"></script>
 	<link href="../wp-content/themes/vantage/css/main.css" rel="stylesheet" />
 	<link href="../wp-content/themes/vantage/css/sponsor.css" rel="stylesheet" />
 	<link href="../wp-content/themes/vantage/css/listing.css" rel="stylesheet" />
