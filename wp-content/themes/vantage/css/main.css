@@ -7,7 +7,7 @@
 body {
 	color: #d8e3e9;
 	font: 12px "Droid Serif", sans-serif;
-	background: #000;
+	background: #261c02;
 }
 
 h1, h2 {
@@ -20,20 +20,17 @@ h1, h2 {
 	top:0;
 	left: 0;
 	z-index: 100;
-	-webkit-box-shadow: 0 8px 8px -8px #fff;
-	-moz-box-shadow: 0 8px 8px -8px #fff;
-        box-shadow: 0 8px 8px -8px #fff	;
 }
 
 .head-nav, .head-misc {
 	height: inherit;
 	vertical-align: middle;
 }
-.head-nav a, .head-misc .btn-sponsor {
+.head-nav > a, .head-misc .btn-sponsor {
 	display: block;
 	margin-top: 10px;
 }
-.head-nav a:hover, .head-misc a {
+.head-nav > a:hover, .head-misc > a {
 	text-decoration: none;
 }
 
@@ -44,8 +41,10 @@ h1, h2 {
 	background: #000;
 }
 
-.head-nav a {
+.head-nav > a {
 	color: #d8e3e9;
+	font-size: 1.5em;
+	margin-top: 12px;
 	margin-left: 12px;
 }
 

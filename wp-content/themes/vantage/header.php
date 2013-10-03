@@ -35,15 +35,5 @@
 
 <div id="page-wrapper" class="container">
 
-	<?php do_action( 'vantage_before_masthead' ); ?>
-
 	<?php get_template_part( 'parts/masthead', apply_filters( 'vantage_masthead_type', '' ) ); ?>
 
-	<?php do_action( 'vantage_after_masthead' ); ?>
-
-	<?php vantage_render_slider() ?>
-
-
-	<div id="main" class="site-main">
-		<div class="full-container">
-			<?php do_action( 'vantage_main_top' ); ?>
