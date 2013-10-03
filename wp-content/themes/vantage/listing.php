@@ -26,17 +26,20 @@ get_header(); ?>
             	<article>
                 	
                <span class="veh-title">2014 Lexus GS 350 </span>   
-               <span class="add-info"><strong> Price: </strong> $55,0000</span>   
-               <span class="add-info"><strong>Millage:</strong> 10</span> 
+               <span class="add-info"><strong>Price: </strong> $55,0000</span>   
+               <span class="add-info"><strong>Mileage:</strong> 10</span> 
                <span class="add-info"><strong>Condition:</strong>New</span>
-               <span class="add-info"><strong>Color:</strong>white</span>
-               <span class="add-info"><strong>Desciption:</strong>This is an example of a cool description</span>
+               <span class="add-info"><strong>Color:</strong>White</span>
+               <span class="add-info"><strong>Description:</strong>This is an example of a cool description</span>
                
-               <span class="dealer-info">
-               	<span><strong>Dealership name : </strong>Narwhal Lexus Norfolk</span>
-                <span><strong>Address : </strong>150 Granby St, Norfolk VA 23510</span>
-                <span><strong>Phone : </strong>757 000 1111</span>
-               </span>
+               <div class="dealer-info vcard">
+	               	<span class="org">Narwhal Lexus Norfolk</span>
+	                <div class="adr">
+	                	<span class="street-address">150 Granby St</span><br />
+	                	<span class="locality">Norfolk</span>, <span class="region">VA</span> <span class="postal-code">23510</span><br/ >
+	                <span class="tel">757-000-1111</span><br />
+	                <span class="url">http://www.dealership.com</span>
+               </div>
                        
                     
                 </article>

@@ -21,11 +21,7 @@
 	padding-bottom: 50px;
 }
 
-
-
-
-
-/*set up wrapper for conent, max width is 1024px , also the first break points*/
+/*set up wrapper for content, max width is 1024px , also the first break points*/
 .wrapper {
 	display: block;
 	position: relative;
@@ -83,7 +79,7 @@
 }
 
 
-.veh-info article span {
+.veh-info article > span {
 	display: block;
 	position: relative;
 	width: 100%;
@@ -94,14 +90,13 @@
 
 
 .veh-info article span:last-child {
-	
-		
-		
-		border-bottom: 0;
+	border-bottom: 0;
 }
 
 .dealer-info {
+	font-size: 1.5em;
 	border-bottom: 0 !important;
+	line-height: 1.2em;
 }
 
 .dealer-info:first-child {
@@ -112,25 +107,23 @@
 	font-family: 'Roboto Slab', serif;
 	text-transform: uppercase;
 	font-weight: 100;
-	font-size: 18pt;
+	font-size: 2.2em;
 	border-bottom: 1px solid #f78e1e;
 	
 	
 }
 
 .add-info {
-	
 	font-weight: 100;
+	font-size: 1.5em;
 }
 
 
 .add-info strong {
 	font-style: normal;
-	
 	margin-right: 15px;	
 	font-weight: 700;
-	
-	}
+}
 	
 	
 .dealer-info {
@@ -148,9 +141,9 @@
 	margin-bottom: 5px !important;
 }
 
-
-.dealer-info strong {
-	font-weight: 100;
+.dealer-info .org { 
+	font-size: 1.1em; 
+	font-weight: bold;
 }
 
 

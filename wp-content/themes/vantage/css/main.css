@@ -26,7 +26,7 @@ h1, h2 {
 	height: inherit;
 	vertical-align: middle;
 }
-.head-nav > a, .head-misc .btn-sponsor {
+.head-nav > a, .btn-sponsor a {
 	display: block;
 	margin-top: 10px;
 }
@@ -49,6 +49,10 @@ h1, h2 {
 }
 
 .head-misc {
+	background: #000;
+}
+
+.btn-sponsor {
 	width: 45%;
 	float: right;
 	text-align: center;
@@ -64,7 +68,7 @@ h1, h2 {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f78e1e', endColorstr='#f78e1e', GradientType=0 );
 }
 
-.btn-sponsor {
+.btn-sponsor a {
 	color: #fff;
 	font-family: "Roboto Slab", serif;
 	/* font-family: "Droid Serif", serif; */
