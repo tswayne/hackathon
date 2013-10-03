@@ -20,6 +20,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:600|Roboto+Slab:100|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' />
 	
 	<link href="../wp-content/themes/vantage/bootstrap.min.css" rel="stylesheet" />
+	
 	<?php wp_head(); ?>
 
 	<link href="../wp-content/themes/vantage/css/main.css" rel="stylesheet" />
@@ -32,7 +33,7 @@
 
 <?php do_action('vantage_before_page_wrapper') ?>
 
-<div id="page-wrapper">
+<div id="page-wrapper" class="container">
 
 	<?php do_action( 'vantage_before_masthead' ); ?>
 
@@ -42,7 +43,6 @@
 
 	<?php vantage_render_slider() ?>
 
-	<?php do_action( 'vantage_before_main_container' ); ?>
 
 	<div id="main" class="site-main">
 		<div class="full-container">

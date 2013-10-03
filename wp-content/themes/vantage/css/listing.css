@@ -1,0 +1,211 @@
+/**
+ *	listing.css
+ *  
+ *  listing page styles
+ *
+**/
+.page-listing {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 0 ;
+	padding: 0;
+	left: 0;
+	top: 0;
+	background-color: #261c02;
+	overflow: auto;
+	float: none;
+	clear: both;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+
+
+
+/*set up wrapper for conent, max width is 1024px , also the first break points*/
+.wrapper {
+	display: block;
+	position: relative;
+	width: 1024px;
+	height: auto;
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+
+
+
+/*image of vehicle*/
+.veh-img {
+	display: block;
+	position: relative;
+	width: 50%;
+	float: left;
+	height: auto;
+
+}
+
+.veh-img img {
+	display: block;
+	position: relative;
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	left: 0;
+	border: 0;
+}
+
+
+
+/*vehicle information*/
+.veh-info {
+	display: block;
+	position: relative;
+	width: 50%;
+	float: right;
+}
+
+.veh-info article {
+	display: block;
+	position: relative;
+	width: 90%;
+	height: auto;
+	height: 100%;
+	margin: 0 auto;
+	font-family: 'Droid Serif', serif;
+	font-size: 12px;
+	color: #d8e3e9;
+	font-weight: 400;
+	
+}
+
+
+.veh-info article span {
+	display: block;
+	position: relative;
+	width: 100%;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	
+}
+
+
+.veh-info article span:last-child {
+	
+		
+		
+		border-bottom: 0;
+}
+
+.dealer-info {
+	border-bottom: 0 !important;
+}
+
+.dealer-info:first-child {
+	margin-top: 40px;
+}
+
+.veh-title {
+	font-family: 'Roboto Slab', serif;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 18pt;
+	border-bottom: 1px solid #f78e1e;
+	
+	
+}
+
+.add-info {
+	
+	font-weight: 100;
+}
+
+
+.add-info strong {
+	font-style: normal;
+	
+	margin-right: 15px;	
+	font-weight: 700;
+	
+	}
+	
+	
+.dealer-info {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	padding-top: 10px;
+	
+}
+
+.dealer-info span {
+	border-bottom: 0px !important;
+	margin-bottom: 5px !important;
+}
+
+
+.dealer-info strong {
+	font-weight: 100;
+}
+
+
+/*frist break point at 1024px*/
+@media screen and (max-width: 1024px) {
+	
+	.wrapper {
+		width: 90%;
+		margin: 0 auto;
+		overflow-x: hidden;
+	}
+}
+
+
+@media screen and (max-width: 980px) {
+	.veh-img {
+		width: 40%;
+	}
+	
+	.veh-info {
+		width: 60%;
+		
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.veh-img {
+		width: 100%;
+		float: none;
+		margin-bottom: 50px;
+	}
+	
+	.veh-info {
+		width: 100%;
+		float: none;
+		
+		
+	}
+	
+}
+
+
+/*mobile size*/
+
+@media screen and (max-wdith: 480px) {
+	
+	.veh-img {
+		width: 100%;
+		
+	}
+	
+	.veh-info {
+		width: 100%;
+		
+		
+		
+	}
+}

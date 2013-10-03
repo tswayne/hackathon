@@ -1,0 +1,70 @@
+/**
+ *	main.css
+ *  
+ *  general styles
+ *
+**/
+body {
+	font: 12px "Droid Serif", sans-serif;
+}
+
+h1, h2 {
+	font-family: "Roboto Slab", serif;
+}
+
+.masthead {
+	height: 40px;
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 100;
+}
+
+.head-nav, .head-misc {
+	height: inherit;
+	vertical-align: middle;
+}
+.head-nav a, .head-misc .btn-sponsor {
+	display: block;
+	margin-top: 10px;
+}
+.head-nav a:hover, .head-misc a {
+	text-decoration: none;
+}
+
+
+.head-nav {
+	width: 55%;
+	float: left;
+	background: #000;
+}
+
+.head-nav a {
+	color: #d8e3e9;
+	margin-left: 12px;
+}
+
+.head-misc {
+	width: 45%;
+	float: right;
+	text-align: center;
+	background: #f78e1e;
+	
+	background: rgba(247,142,30,1);
+	background: -moz-linear-gradient(top, rgba(247,142,30,1) 0%, rgba(247,142,30,1) 1%, rgba(245,173,101,1) 49%, rgba(247,142,30,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(247,142,30,1)), color-stop(1%, rgba(247,142,30,1)), color-stop(49%, rgba(245,173,101,1)), color-stop(100%, rgba(247,142,30,1)));
+	background: -webkit-linear-gradient(top, rgba(247,142,30,1) 0%, rgba(247,142,30,1) 1%, rgba(245,173,101,1) 49%, rgba(247,142,30,1) 100%);
+	background: -o-linear-gradient(top, rgba(247,142,30,1) 0%, rgba(247,142,30,1) 1%, rgba(245,173,101,1) 49%, rgba(247,142,30,1) 100%);
+	background: -ms-linear-gradient(top, rgba(247,142,30,1) 0%, rgba(247,142,30,1) 1%, rgba(245,173,101,1) 49%, rgba(247,142,30,1) 100%);
+	background: linear-gradient(to bottom, rgba(247,142,30,1) 0%, rgba(247,142,30,1) 1%, rgba(245,173,101,1) 49%, rgba(247,142,30,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f78e1e', endColorstr='#f78e1e', GradientType=0 );
+}
+
+.btn-sponsor {
+	color: #fff;
+	font-family: "Roboto Slab", serif;
+	/* font-family: "Droid Serif", serif; */
+	font-weight: bold;
+	text-transform: uppercase;
+}
+

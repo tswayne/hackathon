@@ -10,12 +10,10 @@
  */
 get_header(); ?>
 
-<?php echo the_ID(); ?>
-
 <div class="page-sponsor">
 	<h1>Become a Sponsor</h1>
 	<form class="sponsor-form row">
-		<fieldset name="car-makes">
+		<fieldset name="car-makes" class="car-makes">
 			<legend>Makes</legend>
 			<label for="make-lexus" class="checkbox">
 		      <input type="radio" name="car-make" /> Lexus
@@ -58,7 +56,7 @@ get_header(); ?>
 		    	</select>
 		</fieldset>
 		
-		<button href="" class="">Pay <i class="icon-chevron-right"></i></button>
+		<button href="" class="btn">Pay <i class="icon-chevron-right"></i></button>
 	</form>
 
 </div>
