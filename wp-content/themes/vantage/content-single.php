@@ -64,8 +64,85 @@
 		<?php do_action('vantage_entry_main_bottom') ?>
 
 	</div>
-	<a href="" id="list1" style="display:none"></a>
+	<a href="" id="list1" style="display:none;"></a>
 	<a href="" id="list2" style="display:none"></a>
 	<a href="" id="list3" style="display:none"></a>
+	
+	<!--listing section: maximum three vehicles-->
+    <div id="home-listing">
+    	<!--wrapper-->
+        <div class="wrapper">
+        	<ul class="three-columns">
+            	<li>
+                <!--put url of vehicle here-->
+                <a href="#" target="_blank">
+                	<article>
+                    	<!--put image of listing vehicle here-->
+                        <div class="list-img" >
+                        <img src="imgage/m4.jpg"/>
+                        </div><!--end listing image -->
+
+                        <!--vehicle detail goes here-->
+                        <div class="list-detail">
+                        	<!--vehicle year, make and model go here-->
+                        	<span class="list-name">2014 BMW M4</span>
+                            
+                            <!--price of vehicle-->
+                            <span class="list-price">$60,000</span>
+                            
+                        </div><!--end vehicle detail-->
+                    </article>
+                  </a>
+                </li>
+                <!--second vehicle-->
+                <li>
+	                <!--put url of vehicle here-->
+	                <a href="#" target="_blank">
+	                	<article>
+	                    	<!--put image of listing vehicle here-->
+	                        <div class="list-img" >
+	                        	<img src="../images/aston.jpg"/>
+	                        </div><!--end listing image -->
+	                        
+	                        
+	                        <!--vehicle detail goes here-->
+	                        <div class="list-detail">
+	                        	<!--vehicle year, make and model go here-->
+	                        	<span class="list-name">2014 Aston Martin Vanquish</span>
+	                            
+	                            <!--price of vehicle-->
+	                            <span class="list-price">$400,000</span>
+	                            
+	                        </div><!--end vehicle detail-->
+	                    </article>
+	                    <!--put url of vehicle here-->
+	                <a href="#" target="_blank">
+                </li>
+                <!--third  vehicle: no more listing after this point-->
+                <li>
+	                <!--put url of vehicle here-->
+	                <a href="#" target="_blank">
+	                	<article>
+	                    	<!--put image of listing vehicle here-->
+	                        <div class="list-img" >
+	                        	<img src="imgage/jaguar-ftype-16.jpg"/>
+	                        </div><!--end listing image -->
+	                        
+	                        
+	                        <!--vehicle detail goes here-->
+	                        <div class="list-detail">
+	                        	<!--vehicle year, make and model go here-->
+	                        	<span class="list-name">2014 Jaquar F-type</span>
+	                            
+	                            <!--price of vehicle-->
+	                            <span class="list-price">$80,000</span>
+	                            
+	                        </div><!--end vehicle detail-->
+	                     </article>
+	                    </a>
+                </li>
+            </ul>
+        </div>
+    </div><!--end listing section-->
 	
 </article><!-- #post-<?php the_ID(); ?> -->
