@@ -8,17 +8,10 @@
  * @license GPL 2.0
  */
 
-get_header(); ?>
-
-	<!--logo-->
-   <div id="logo">
-   		<p>auto mobile</p>
-   </div><!--end logo-->
-    
+get_header(); ?>    
     
     <!--banner on top of the page-->
-    <div class="home-banner">
-    </div><!--end home banner-->
+    <div class="home-banner"></div><!--end home banner-->
     
     
     <!--content goes here-->
@@ -35,4 +28,4 @@ get_header(); ?>
     
     </div><!--end content-->
 
-<?php get_footer(); ?>
+<?php  get_footer(); ?>

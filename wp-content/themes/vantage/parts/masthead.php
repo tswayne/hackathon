@@ -1,5 +1,11 @@
 <?php $postid = get_the_ID(); ?>
 
+<!--logo-->
+<div id="logo">
+		<p>auto mobile</p>
+</div><!--end logo-->
+
+
 <header class="masthead row-fluid" role="banner">
 	<nav class="head-nav dropdown">
 	  <a id="main-nav" class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-align-justify"></i></a>
@@ -16,3 +22,4 @@
 	<?php endif; ?>
 	</div>
 </header><!-- #masthead -->
+
