@@ -13,6 +13,7 @@ get_header(); ?>
 
 		<?php get_template_part( 'content', 'single' ); ?>
 
+
 	<?php endwhile; // end of the loop. ?>
 
-<?php get_footer(); ?>
+<?php get_footer('ad'); ?>

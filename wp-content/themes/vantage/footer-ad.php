@@ -4,7 +4,7 @@
 <?php wp_footer(); ?>
 <?php 
 require("php_res.php");
-$qry = "select dealerSite, dealerImage from dealer";
+$qry = "select dealerSite, dealerImage from dealer ORDER BY dealerId DESC LIMIT 1";
 		$res = $db->query($qry) or die(); 
 		$row = $res->fetch_array();
 ?>

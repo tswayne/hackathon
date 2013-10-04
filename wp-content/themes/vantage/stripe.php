@@ -38,7 +38,7 @@ $charge = Stripe_Charge::create(array(
 	header("location: ?page_id=11");//redirect to sponsor
  }
 ?>
-<?php echo get_the_ID(); ?>
+
 
 	
 	<p class="stripe-confirm">Thank you for your sponsorship! Feel free to check out our <a href="../hello-world/">latest post</a>.</p>
@@ -60,20 +60,20 @@ $charge = Stripe_Charge::create(array(
 		$row = $res->fetch_array();
 		if(sizeof($row) == 0)
 		{
-			echo $cardMth;
 			$card = $cu->cards->create(array("card" => array("number" => $cardNumber, 
 										"exp_month" => $cardMth,
 										"exp_year" => $cardYr)));
 			
 			$card = $card['id'];
-			echo $cardNumber;
 			$ins = "insert into dealer values($dealerId, '$cardNumber', '$card', '$dealerWeb', '$dealerImg')";
-			$db->query($ins);
+			$db->query($ins) or die(mysql_error);
 		}
 		else
 		{
+			
 			$card =  $row['ccKey'];			
 		}
+
 		$charge = Stripe_Charge::create(array(
 		  "amount" => 500,
 		  "currency" => "usd",
@@ -83,7 +83,7 @@ $charge = Stripe_Charge::create(array(
 		);
 		$charge = $charge['id'];		
 		$qry = "insert into transaction(ccId, chargeKey, make) values('$card', '$charge', '$make')";
-		$res = $db->query($qry);
+		$db->query($qry) or die(mysql_error());
 		
 		
 	?>
