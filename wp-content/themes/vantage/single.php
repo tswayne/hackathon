@@ -9,8 +9,10 @@
 
 get_header(); ?>
 
+<!--
 <div id="primary" class="content-area">
 	<div id="content" class="site-content" role="main">
+-->
 
 	<?php while ( have_posts() ) : the_post(); ?>
 
@@ -19,8 +21,10 @@ get_header(); ?>
 
 	<?php endwhile; // end of the loop. ?>
 
-	</div><!-- #content .site-content -->
-</div><!-- #primary .content-area -->
+<!--
+	</div>
+</div>
+-->
 
 
 <?php get_footer(); ?>

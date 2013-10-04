@@ -28,7 +28,7 @@ get_header(); ?>
         	<article class="post">
             	<h1>Lexus Partners <br />with Tony Hawk Foundation <br />to Create a Fan Based Decal</h1>
                  <p>Lexus and the Tony Hawk Foundation will be asking their fans and supporters to be part of a fan based decal that will be featured on the Lexus IS F CCS-R race car competing in Pikes Peak International Hill Climb...</p>
-                <a href="#" class="read-more"><i class="icon-caret-right"></i> Read More</a>
+                <a href="/hello-world/" class="read-more"><i class="icon-caret-right"></i> Read More</a>
             </article>
         	
         </div><!--end wrapper-->

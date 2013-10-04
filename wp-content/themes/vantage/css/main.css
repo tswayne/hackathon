@@ -28,6 +28,17 @@ h1, h2 {
 	font-family: "Roboto Slab", serif;
 }
 
+article.post .entry-header .entry-meta a {
+	color: #f78e1e;
+	font-style: italic;
+}
+
+h1.entry-title a {
+	color: #d8e3e9 !important;
+	font-family: "Roboto Slab", serif;
+}
+
+
 .masthead {
 	height: 40px;
 	position: fixed;

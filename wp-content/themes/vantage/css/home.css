@@ -50,7 +50,7 @@ article, p, a {
 	
 	background: url('../images/2014-is.jpg') no-repeat;
 	background-repeat: no-repeat;
-	background-position: center 48px;
+	background-position: center center;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -133,7 +133,7 @@ article, p, a {
 	/*mobile screen break point*/
 @media screen and (max-width: 480px) {
 	
-	#home-banner {
+	.home-banner {
 		min-height: 150px;
 		background-attachment: local;
 	}
