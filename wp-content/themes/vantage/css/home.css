@@ -1,0 +1,146 @@
+/*reset*/
+body, html, #page-wrapper {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	top: 0;
+	overflow-x: hidden;
+	background-color: #1b1b1b
+}
+
+article, p, a {
+	font-family: 'Droid Serif', serif;
+	color: #D8e3e9;
+}
+
+/*logo style*/
+
+#logo {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: #333;
+}
+
+#logo  p {
+	
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	left: 0;
+	top: 0;
+	font-size: 2.5em;
+	font-family: 'Josefin Sans', sans-serif;
+   	text-align: center;
+   	text-transform: uppercase;
+	color: #d8e3e9;
+   	text-shadow: #F78E1E -2px 2px 0px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+
+}
+
+
+
+/*setting background image for the home page banner*/
+.home-banner {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	min-height:500px;/*back up for viewport hieght in mobile*/
+	
+	background-image: url(imgage/2014-is.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-attachment: fixed;
+	
+
+}
+
+
+
+/*content section*/
+.home-content {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	top: 0;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+/*wrapper size*/
+.wrapper {
+	display: block;
+	position: relative;
+	width: 1024px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.post {
+	display: block;
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+	
+	font-family: 'Droid Serif';
+	font-size: 12px;
+	text-align: center;
+	line-height: 24px;
+}
+
+.post h1 {
+	display: block;
+	position: relative;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 100;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.btn, .btn a {
+	display: block;
+	position: relative;
+	margin-top: 15px;
+	color: #f78e1e;
+	font-family: 'Droid Serif';
+	font-size: 14px;
+	font-style: italic;
+	text-decoration: none;
+}
+	
+@media screen and (max-width: 1024px) {
+	.wrapper {
+		width: 90%;
+		overflow-x: hidden;
+	}
+}
+	
+	
+	/*mobile screen break point*/
+@media screen and (max-width: 480px) {
+	
+	#home-banner {
+		min-height: 150px;
+		background-attachment: local;
+	}
+}

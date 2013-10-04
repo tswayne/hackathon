@@ -10,15 +10,29 @@
 
 get_header(); ?>
 
-<div id="primary" class="content-area">
-	<div id="content" class="site-content" role="main">
-		<div class="entry-content">
-			<?php
-			if( function_exists('siteorigin_panels_render') ) echo siteorigin_panels_render('home');
-			else echo siteorigin_panels_lite_home_render();
-			?>
-		</div>
-	</div><!-- #content .site-content -->
-</div><!-- #primary .content-area -->
+	<!--logo-->
+   <div id="logo">
+   		<p>auto mobile</p>
+   </div><!--end logo-->
+    
+    
+    <!--banner on top of the page-->
+    <div class="home-banner">
+    </div><!--end home banner-->
+    
+    
+    <!--content goes here-->
+    <div class="home-content">
+    	<!--wrapper-->
+        <div class="wrapper">
+        	<article class="post">
+            	<h1>Lexus Partners with Tony Hawk Foundation to Create a Fan Based Decal</h1>
+                 Lexus and the Tony Hawk Foundation will be asking their fans and supporters to be part of a fan based decal that will be featured on the Lexus IS F CCS-R race car competing in Pikes Peak International Hill Climb...
+                <span class="btn"><a href="#"><i class="icon-caret-right"></i> Read More</a></span>
+            </article>
+        	
+        </div><!--end wrapper-->
+    
+    </div><!--end content-->
 
 <?php get_footer(); ?>
