@@ -24,8 +24,12 @@
 			 if(val.details.MAKE_NAME == cat)
 			 {
 				i++;
-				$("#list" + i).attr("href", url + "/listing?listing="+val.details.LISTING_ID).html(val.details.YEAR + " " + val.details.MAKE_NAME + " " + val.details.MODEL_NAME).show()
-								
+				$("#text-" + i).html(val.details.YEAR + " " + val.details.MAKE_NAME + " " + val.details.MODEL_NAME);
+				$("#img-" + i).attr("src", val.details.IMAGE_PATHS[1]);
+				 alert(val.details.IMAGE_PATHS[1]);
+				$("#price-" + i).html("$" +  val.details.PRICE);
+				$("#list" + i).attr("href", url + "/listing?listing="+val.details.LISTING_ID).show();
+				//price & image
 			 }			
 			 if(i == 3)
 			 {
@@ -64,10 +68,6 @@
 		<?php do_action('vantage_entry_main_bottom') ?>
 
 	</div>
-	<a href="" id="list1" style="display:none;"></a>
-	<a href="" id="list2" style="display:none"></a>
-	<a href="" id="list3" style="display:none"></a>
-	
 	<!--listing section: maximum three vehicles-->
     <div id="home-listing">
     	<!--wrapper-->
@@ -75,20 +75,20 @@
         	<ul class="three-columns">
             	<li>
                 <!--put url of vehicle here-->
-                <a href="#" target="_blank">
+				<a href="" id="list1" style="display:none;">
                 	<article>
                     	<!--put image of listing vehicle here-->
                         <div class="list-img" >
-                        <img src="imgage/m4.jpg"/>
+                        <img id="img-1" src="imgage/m4.jpg"/>
                         </div><!--end listing image -->
 
                         <!--vehicle detail goes here-->
                         <div class="list-detail">
                         	<!--vehicle year, make and model go here-->
-                        	<span class="list-name">2014 BMW M4</span>
+                        	<span id="text-1" class="list-name">2014 BMW M4</span>
                             
                             <!--price of vehicle-->
-                            <span class="list-price">$60,000</span>
+                            <span id="price-1" class="list-price">$60,000</span>
                             
                         </div><!--end vehicle detail-->
                     </article>
@@ -97,21 +97,21 @@
                 <!--second vehicle-->
                 <li>
 	                <!--put url of vehicle here-->
-	                <a href="#" target="_blank">
+					<a href="" id="list2" style="display:none">
 	                	<article>
 	                    	<!--put image of listing vehicle here-->
 	                        <div class="list-img" >
-	                        	<img src="../images/aston.jpg"/>
+	                        	<img id="img-2" src="../images/aston.jpg"/>
 	                        </div><!--end listing image -->
 	                        
 	                        
 	                        <!--vehicle detail goes here-->
 	                        <div class="list-detail">
 	                        	<!--vehicle year, make and model go here-->
-	                        	<span class="list-name">2014 Aston Martin Vanquish</span>
+	                        	<span id="text-2" class="list-name">2014 Aston Martin Vanquish</span>
 	                            
 	                            <!--price of vehicle-->
-	                            <span class="list-price">$400,000</span>
+	                            <span id="price-2" class="list-price">$400,000</span>
 	                            
 	                        </div><!--end vehicle detail-->
 	                    </article>
@@ -121,21 +121,21 @@
                 <!--third  vehicle: no more listing after this point-->
                 <li>
 	                <!--put url of vehicle here-->
-	                <a href="#" target="_blank">
+					<a href="" id="list3" style="display:none">
 	                	<article>
 	                    	<!--put image of listing vehicle here-->
 	                        <div class="list-img" >
-	                        	<img src="imgage/jaguar-ftype-16.jpg"/>
+	                        	<img id="img-3" src="imgage/jaguar-ftype-16.jpg"/>
 	                        </div><!--end listing image -->
 	                        
 	                        
 	                        <!--vehicle detail goes here-->
 	                        <div class="list-detail">
 	                        	<!--vehicle year, make and model go here-->
-	                        	<span class="list-name">2014 Jaquar F-type</span>
+	                        	<span id="text-3" class="list-name">2014 Jaquar F-type</span>
 	                            
 	                            <!--price of vehicle-->
-	                            <span class="list-price">$80,000</span>
+	                            <span id="price-3" class="list-price">$80,000</span>
 	                            
 	                        </div><!--end vehicle detail-->
 	                     </article>
