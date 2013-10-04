@@ -33,6 +33,10 @@ $charge = Stripe_Charge::create(array(
  $make = $_REQUEST['car-make'];
  $dealerWeb = $_REQUEST['dealer-website'];
  $dealerImg = $_REQUEST['dealer-image'];
+ if($dealerId == "")
+ {
+	header("location: ?page_id=11");//redirect to sponsor
+ }
 ?>
 
 <div id="primary" class="content-area">
