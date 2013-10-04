@@ -17,8 +17,8 @@
 	  </ul>
 	</nav>
 	
-	<div class="head-misc<?php if( $postid != '2' ) : ?> btn-sponsor<?php endif; ?>">
-	<?php if( $postid != '2' ) : ?>
+	<div class="head-misc<?php if( $postid != '2' && $postid != '16' ) : ?> btn-sponsor<?php endif; ?>">
+	<?php if( $postid != '2' && $postid != '16') : ?>
 		<a href="sponsor/">Become a Sponsor</a>
 	<?php endif; ?>
 	</div>

@@ -12,7 +12,7 @@ get_header(); ?>
 
 <div class="page-sponsor">
 	<h1>Become a Sponsor</h1>
-	<form action="<?php echo get_permalink(5) ?>" method="POST" class="sponsor-form row">
+	<form action="stripe" method="POST" class="sponsor-form row">
 		<fieldset name="car-makes" class="car-makes">
 			<legend>Make</legend>
 			<span>Select a make:</span><br />
@@ -33,7 +33,7 @@ get_header(); ?>
 		<label for="dealer-website">Dealership Website</label>
 			<input type="text" name="dealer-website" />
 			
-		<label for="dealer-img">Ad Image <span>(Ad size should be a 320px x 40px jpg.)</span></label>
+		<label for="dealer-img">Ad Image Link<span>(Ad size should be a 320px x 40px jpg.)</span></label>
 			<input type="text" name="dealer-image" />
 		
 		<fieldset name="card-info" class="card-info">

@@ -38,9 +38,10 @@ $charge = Stripe_Charge::create(array(
 	header("location: ?page_id=11");//redirect to sponsor
  }
 ?>
+<?php echo get_the_ID(); ?>
 
-<div id="primary" class="content-area">
-	<div id="content" class="site-content" role="main">
+	
+	<p class="stripe-confirm">Thank you for your sponsorship! Feel free to check out our <a href="../hello-world/">latest post</a>.</p>
 	<?php
 	
 		try{
@@ -86,9 +87,5 @@ $charge = Stripe_Charge::create(array(
 		
 		
 	?>
-	</div><!-- #content .site-content -->
-</div><!-- #primary .content-area -->
-
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

@@ -21,6 +21,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:600|Roboto+Slab:100|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' />
 	
 	<link href="<?php echo get_site_url(); ?>/wp-content/themes/vantage/bootstrap.min.css" rel="stylesheet" />
+	<link href="https://s3.amazonaws.com/dom-cms/dev-web/Content/css/flexslider/flexslider.css" rel="stylesheet" type="text/css" />
 	
 	<?php wp_head(); ?>
 	<script src="http://code.jquery.com/jquery-2.0.3.js"></script>

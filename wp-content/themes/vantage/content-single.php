@@ -26,7 +26,6 @@
 				i++;
 				$("#text-" + i).html(val.details.YEAR + " " + val.details.MAKE_NAME + " " + val.details.MODEL_NAME);
 				$("#img-" + i).attr("src", val.details.IMAGE_PATHS[1]);
-				 alert(val.details.IMAGE_PATHS[1]);
 				$("#price-" + i).html("$" +  val.details.PRICE);
 				$("#list" + i).attr("href", url + "/listing?listing="+val.details.LISTING_ID).show();
 				//price & image
@@ -71,11 +70,11 @@
 	<!--listing section: maximum three vehicles-->
     <div id="home-listing">
     	<!--wrapper-->
-        <div class="wrapper">
-        	<ul class="three-columns">
+        <div class="wrapper flexslider">
+        	<ul class="three-columns slides">
             	<li>
                 <!--put url of vehicle here-->
-				<a href="" id="list1" style="display:none;">
+				<a href="" id="list1" class="slide-content" style="display:none;">
                 	<article>
                     	<!--put image of listing vehicle here-->
                         <div class="list-img" >
@@ -97,7 +96,7 @@
                 <!--second vehicle-->
                 <li>
 	                <!--put url of vehicle here-->
-					<a href="" id="list2" style="display:none">
+					<a href="" id="list2" class="slide-content" style="display:none">
 	                	<article>
 	                    	<!--put image of listing vehicle here-->
 	                        <div class="list-img" >
@@ -121,7 +120,7 @@
                 <!--third  vehicle: no more listing after this point-->
                 <li>
 	                <!--put url of vehicle here-->
-					<a href="" id="list3" style="display:none">
+					<a href="" id="list3" class="slide-content" style="display:none">
 	                	<article>
 	                    	<!--put image of listing vehicle here-->
 	                        <div class="list-img" >

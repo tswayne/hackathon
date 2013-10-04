@@ -10,3 +10,205 @@ article.post { width: 100%; }
 	width: 90%; 
 	margin: 0 auto;
 }
+
+/*listing section detail*/
+#home-listing {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	top: 0;
+	padding-top: 40px;
+}
+
+
+.three-columns {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	top: 0;
+}
+
+.three-columns li {
+	display: block;
+	position: relative;
+	width: 33.333%;
+	float: left;
+	margin-bottom: 40px;
+}
+
+.three-columns li a {
+	
+	text-decoration: none;
+}
+
+.three-columns li article {
+	display: block;
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+	font-family: 'Droid Serif';
+	font-weight: 400;
+}
+
+
+/*listing vehicle image*/
+.list-img {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.list-img img {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding-bottom: 20px;
+}
+
+.list-detail {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+
+}
+
+.list-detail span {
+	position: relative;
+}
+
+/*copy below this point of stylesheet*/
+	/*general style of flexslider*/
+	.flexslider {
+		display: block;
+		position: relative;
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		left: 0;
+		top: 0;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		background-color: #1b1b1b;
+		border: none !important;
+	}
+	
+	
+	.slides , .slides  article , .slides  article img {
+		display: inline-block;
+		position: relative;
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		left: 0;
+		top: 0;
+	}
+	
+	.slides  article .list-detail {
+		position: absolute;
+		width: 100%;
+		height: auto;
+		bottom: 0;
+		left: 0;
+		font-family: 'Droid Serif', serif;
+		font-size: 12px;
+		color: #D8e3e9;
+		text-align: center;
+		font-weight: 100;
+		background-color: rgba(0,0,0,.8);
+		padding-top: 15px;
+		padding-bottom: 15px;
+		font-style: normal;
+	}
+	
+	
+	
+	/*next and previous arror*/
+	.flex-direction-nav li a {
+		width: 18px; 
+		height: 30px; 
+		margin: -26px 0 0; 
+		display: block; 
+		background-image: url(imgage/arrows.png);
+		position: absolute; top: 50%; 
+		cursor: pointer; 
+		text-indent: -999em;
+		overflow: hidden;
+		}
+		
+.flex-direction-nav li .next {
+	background-position: -18px 0; 
+	right: 10px;
+	}
+.flex-direction-nav li .prev {
+	left: 10px;
+	
+	}
+	/*pager on the bottom */
+	
+	.flex-control-nav li {
+		padding-bottom: 5px;
+	}
+	
+	.flex-control-nav li a {
+		display: block;
+		width: 13px;
+		height: 13px;
+		background-image: none;
+		background-color: #d8e3e9;
+		transition: linear .3s;
+		-moz-transition: linear .3s;
+		-webkit-transition: linear .3s;
+		-o-transition: linear .3s;
+		
+		
+		border-radius: 50%;
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+		-o-border-radius: 50%;
+		-ms-border-radius: 50%;
+		
+	}
+	
+	
+	.flex-control-nav li a:hover, .flex-control-nav li a.active {
+		
+		background-color: #f78e1e;
+		
+		
+	}
+	
+@media screen and (max-width: 1024px) {
+	.wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	
+	.slides  figure figcaption {
+		font-size: 12px;
+	}
+	
+	.flex-control-nav li a {
+		display: block;
+		width: 10px;
+		height: 10px;
+	}
+	
+	
+}
