@@ -41,7 +41,7 @@ $charge = Stripe_Charge::create(array(
 
 
 	
-	<p class="stripe-confirm">Thank you for your sponsorship! Feel free to check out our <a href="../hello-world/">latest post</a>.</p>
+	<p class="stripe-confirm">Thank you for your sponsorship! Feel free to check out our <a href="hello-world/">latest post</a>.</p>
 	<?php
 	
 		try{
