@@ -14,7 +14,8 @@ get_header(); ?>
 	<h1>Become a Sponsor</h1>
 	<form class="sponsor-form row">
 		<fieldset name="car-makes" class="car-makes">
-			<legend>Makes</legend>
+			<legend>Make</legend>
+			<span>Select a make:</span><br />
 			<label for="make-lexus" class="checkbox">
 		      <input type="radio" name="car-make" /> Lexus
 		    </label>
@@ -29,8 +30,11 @@ get_header(); ?>
 		<label for="dealer-id">Dealership ID</label>
 			<input type="text" name="dealer-id" />
 		
-		<fieldset name="card-info">
+		
+		<fieldset name="card-info" class="card-info">
 			<legend>Credit Card Information</legend>
+			
+			<span>Enter your credit card information:</span>
 			<label for="card-number">Credit Card Number</label>
 		      	<input type="number" name="card-number" />
 		    <label for="card-exp">Expiration Month/Year</label>
@@ -56,7 +60,7 @@ get_header(); ?>
 		    	</select>
 		</fieldset>
 		
-		<button href="" class="btn">Pay <i class="icon-chevron-right"></i></button>
+		<button href="" class="btn btn-success">Pay <i class="icon-chevron-right"></i></button>
 	</form>
 
 </div>

@@ -4,6 +4,21 @@
  *  general styles
  *
 **/
+.page-sponsor {
+	margin-top: 36px;
+}
+
+.page-sponsor form { 
+	margin: 24px 0; 
+	padding-top: 12px; 
+	border-top: 1px solid #eee;
+}
+.page-sponsor legend { display: none; }
+.page-sponsor span {
+	font-size:1.25em;
+	font-style: italic;
+	display: block;
+}
 
 .car-makes {
 	margin-bottom: 12px;
@@ -21,3 +36,11 @@
 	padding: 0;
 	
 }
+
+.card-info {
+	border: 1px solid #eee;
+	margin: 12px 0;
+	padding: 12px; 
+}
+
+.card-info span { margin-bottom: 12px; }
