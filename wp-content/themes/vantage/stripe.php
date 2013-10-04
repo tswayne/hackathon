@@ -30,7 +30,9 @@ $charge = Stripe_Charge::create(array(
  $cardMth = $_REQUEST['card-exp-mth'];
  $cardYr = $_REQUEST['card-exp-yr'];
  $make = $_REQUEST['car-make'];
- $make = "asdf";
+ $make = $_REQUEST['car-make'];
+ $dealerWeb = $_REQUEST['dealer-website'];
+ $dealerImg = $_REQUEST['dealer-image'];
 ?>
 
 <div id="primary" class="content-area">
@@ -55,12 +57,12 @@ $charge = Stripe_Charge::create(array(
 		{
 			echo $cardMth;
 			$card = $cu->cards->create(array("card" => array("number" => $cardNumber, 
-										"exp_month" => "$cardMth",
+										"exp_month" => $cardMth,
 										"exp_year" => $cardYr)));
 			
 			$card = $card['id'];
 			echo $cardNumber;
-			$ins = "insert into dealer values($dealerId, '$cardNumber', '$card')";
+			$ins = "insert into dealer values($dealerId, '$cardNumber', '$card', '$dealerWeb', '$dealerImg')";
 			$db->query($ins);
 		}
 		else
