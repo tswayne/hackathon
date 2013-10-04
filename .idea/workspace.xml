@@ -1352,19 +1352,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="listing.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="listing.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/listing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="16" selection-start="0" selection-end="3346" vertical-scroll-proportion="-1.3076923">
+            <state line="28" column="27" selection-start="892" selection-end="892" vertical-scroll-proportion="0.32692307">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content-single.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="content-single.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/content-single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="59" selection-start="0" selection-end="2240" vertical-scroll-proportion="0.40865386">
+            <state line="9" column="28" selection-start="124" selection-end="124" vertical-scroll-proportion="-1.9615384">
               <folding />
             </state>
           </provider>
@@ -1743,16 +1743,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/listing.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/content-single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="16" selection-start="0" selection-end="3346" vertical-scroll-proportion="-1.3076923">
+        <state line="9" column="28" selection-start="124" selection-end="124" vertical-scroll-proportion="-1.9615384">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/content-single.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/listing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="59" selection-start="0" selection-end="2240" vertical-scroll-proportion="0.40865386">
+        <state line="28" column="27" selection-start="892" selection-end="892" vertical-scroll-proportion="0.32692307">
           <folding />
         </state>
       </provider>
