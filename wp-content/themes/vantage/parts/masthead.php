@@ -5,8 +5,7 @@
 	  <a id="main-nav" class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-align-justify"></i></a>
 	  <ul class="dropdown-menu" role="menu" aria-labelledby="main-nav">
 	  		<li><a href="/">Home</a></li>
-	  		<li><a href="">Blog</a></li>
-	  		<li><a href="">Listings</a>
+	  		<!-- <li><a href="">Blog</a></li> -->
 	  		<li><a href="sponsor/">Become a Sponsor</a></li>
 	  </ul>
 	</nav>

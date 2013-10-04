@@ -20,9 +20,7 @@
 	display: block;
 }
 
-.car-makes {
-	margin-bottom: 12px;
-}
+.car-makes { margin-bottom: 12px; }
 
 .car-makes label {
 	width: 30%;
@@ -35,6 +33,12 @@
 	margin: 0 6px 0 0;
 	padding: 0;
 	
+}
+
+label[for=dealer-img] span {
+	font-size: 1em;
+	display: inline-block;
+	margin-left: 6px;
 }
 
 .card-info {

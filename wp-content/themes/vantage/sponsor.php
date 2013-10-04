@@ -29,7 +29,12 @@ get_header(); ?>
 		
 		<label for="dealer-id">Dealership ID</label>
 			<input type="text" name="dealer-id" />
-		
+			
+		<label for="dealer-website">Dealership Website</label>
+			<input type="text" name="dealer-website" />
+			
+		<label for="dealer-img">Ad Image <span>(Ad size should be a 320px x 40px jpg.)</span></label>
+			<input type="text" name="dealer-id" />
 		
 		<fieldset name="card-info" class="card-info">
 			<legend>Credit Card Information</legend>
