@@ -1,0 +1,12 @@
+/**
+ *	post.css
+ *  
+ *  general styles
+ *
+**/
+
+article.post { width: 100%; }
+.entry-content { 	
+	width: 90%; 
+	margin: 0 auto;
+}

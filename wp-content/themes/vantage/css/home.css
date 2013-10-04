@@ -1,16 +1,4 @@
-/*reset*/
-body, html, #page-wrapper {
-	display: block;
-	position: relative;
-	width: 100%;
-	height: auto;
-	margin: 0;
-	padding: 0;
-	left: 0;
-	top: 0;
-	overflow-x: hidden;
-	background-color: #1b1b1b
-}
+
 
 article, p, a {
 	font-family: 'Droid Serif', serif;
@@ -25,6 +13,7 @@ article, p, a {
 	width: 100%;
 	height: auto;
 	background-color: #333;
+	margin-top: 12px;
 }
 
 #logo  p {
@@ -59,7 +48,7 @@ article, p, a {
 	padding: 0;
 	min-height:500px;/*back up for viewport hieght in mobile*/
 	
-	background-image: url(imgage/2014-is.jpg);
+	background: url('../images/2014-is.jpg') no-repeat;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -117,7 +106,12 @@ article, p, a {
 	line-height: 28px;
 }
 
-.btn, .btn a {
+.post p {
+	text-align: left;
+	margin-top: 12px;
+}
+
+.read-more {
 	display: block;
 	position: relative;
 	margin-top: 15px;
@@ -139,7 +133,7 @@ article, p, a {
 	/*mobile screen break point*/
 @media screen and (max-width: 480px) {
 	
-	#home-banner {
+	.home-banner {
 		min-height: 150px;
 		background-attachment: local;
 	}
