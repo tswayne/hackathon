@@ -7,7 +7,33 @@
  * @license GPL 2.0
  */
 ?>
-
+<script type="text/javascript">
+	var cat = "	<?php foreach(get_the_category() as $cat)
+	  {
+		$category =  $cat->cat_name;
+	  }
+	  echo $category;
+	  ?>";
+	  cat = cat.trim();
+	  var url = "<?php echo get_site_url();?>";
+	  var i = 0;
+	  $.getJSON( "http://apis.getauto.com/price_getter/listings?partnerCode=GA&zip=23510", function( data ) {
+		  $.each( data, function( key, val ) {
+			// alert(cat.length + " " + val.details.LISTING_ID + " " + val.details.MAKE_NAME );
+			
+			 if(val.details.MAKE_NAME == cat)
+			 {
+				i++;
+				$("#list" + i).attr("href", url + "/listing?listing="+val.details.LISTING_ID).html(val.details.YEAR + " " + val.details.MAKE_NAME + " " + val.details.MODEL_NAME).show()
+								
+			 }			
+			 if(i == 3)
+			 {
+				return false;
+			 }
+		  });
+		  });
+  </script>
 <article id="post-<?php the_ID(); ?>" <?php post_class('post'); ?>>
 
 	<div class="entry-main">
@@ -44,5 +70,8 @@
 		<?php do_action('vantage_entry_main_bottom') ?>
 
 	</div>
-
+	<a href="" id="list1" style="display:none"></a>
+	<a href="" id="list2" style="display:none"></a>
+	<a href="" id="list3" style="display:none"></a>
+	
 </article><!-- #post-<?php the_ID(); ?> -->

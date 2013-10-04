@@ -35,15 +35,8 @@ $charge = Stripe_Charge::create(array(
 
 <div id="primary" class="content-area">
 	<div id="content" class="site-content" role="main">
-	<script type="text/javascript">
-		$.getJSON( "http://apis.getauto.com/price_getter/listings?partnerCode=GA&zip=23510&makeId=59", function( data ) {
-		  $.each( data, function( key, val ) {
-			alert(key + " " + val);
-		  });
-		  });
-	</script>
 	<?php
-	/*
+	
 		try{
 			$cu = Stripe_Customer::retrieve("2");
 		} catch (Exception $e)
@@ -84,7 +77,7 @@ $charge = Stripe_Charge::create(array(
 		$charge = $charge['id'];		
 		$qry = "insert into transaction(ccId, chargeKey, make) values('$card', '$charge', '$make')";
 		$res = $db->query($qry);
-		*/
+		
 		
 	?>
 	</div><!-- #content .site-content -->
