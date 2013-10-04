@@ -61,12 +61,6 @@
 			<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'vantage' ), 'after' => '</div>' ) ); ?>
 		</div><!-- .entry-content -->
 
-		<?php if(vantage_get_post_categories()) : ?>
-			<div class="entry-categories">
-				<?php echo vantage_get_post_categories() ?>
-			</div>
-		<?php endif; ?>
-
 		<?php do_action('vantage_entry_main_bottom') ?>
 
 	</div>
