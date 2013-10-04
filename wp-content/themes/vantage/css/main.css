@@ -4,10 +4,24 @@
  *  general styles
  *
 **/
+/*reset*/
+body, html, #page-wrapper {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	top: 0;
+	overflow-x: hidden;
+}
+
 body {
 	color: #d8e3e9;
 	font: 12px "Droid Serif", sans-serif;
 	background: #1b1b1b;
+	padding-bottom: 40px;
 }
 
 h1, h2 {
@@ -74,5 +88,13 @@ h1, h2 {
 	/* font-family: "Droid Serif", serif; */
 	font-weight: bold;
 	text-transform: uppercase;
+}
+
+footer {
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	text-align: center;
 }
 

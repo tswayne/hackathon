@@ -26,6 +26,7 @@
 	<link href="<?php echo get_site_url(); ?>/wp-content/themes/vantage/css/main.css" rel="stylesheet" />
 	<link href="<?php echo get_site_url(); ?>/wp-content/themes/vantage/css/sponsor.css" rel="stylesheet" />
 	<link href="<?php echo get_site_url(); ?>/wp-content/themes/vantage/css/listing.css" rel="stylesheet" />
+	<link href="<?php echo get_site_url(); ?>/wp-content/themes/vantage/css/home.css" rel="stylesheet" />
 		
 </head>
 
@@ -33,7 +34,7 @@
 
 <?php do_action('vantage_before_page_wrapper') ?>
 
-<div id="page-wrapper" class="container">
+<div id="page-wrapper">
 
 	<?php get_template_part( 'parts/masthead', apply_filters( 'vantage_masthead_type', '' ) ); ?>
 
