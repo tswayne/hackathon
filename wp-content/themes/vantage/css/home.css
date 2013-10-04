@@ -1,42 +1,9 @@
-
-
-article, p, a {
-	font-family: 'Droid Serif', serif;
-	color: #D8e3e9;
-}
-
-/*logo style*/
-
-#logo {
-	display: block;
-	position: relative;
-	width: 100%;
-	height: auto;
-	background-color: #333;
-	margin-top: 12px;
-}
-
-#logo  p {
-	
-	display: block;
-	position: relative;
-	width: 100%;
-	height: auto;
-	margin: 0;
-	left: 0;
-	top: 0;
-	font-size: 2.5em;
-	font-family: 'Josefin Sans', sans-serif;
-   	text-align: center;
-   	text-transform: uppercase;
-	color: #d8e3e9;
-   	text-shadow: #F78E1E -2px 2px 0px;
-	padding-top: 15px;
-	padding-bottom: 10px;
-
-}
-
-
+/**
+ *	home.css
+ *  
+ *  homepage styles
+ *
+**/
 
 /*setting background image for the home page banner*/
 .home-banner {
@@ -57,8 +24,6 @@ article, p, a {
 	-ms-background-size: cover;
 	-o-background-size: cover;
 	background-attachment: fixed;
-	
-
 }
 
 
@@ -103,8 +68,10 @@ article, p, a {
 	font-family: 'Roboto Slab', serif;
 	font-weight: 100;
 	font-size: 24px;
+	font-style: normal;
 	line-height: 28px;
 }
+.post h1 a { font-style: normal; }
 
 .post p {
 	text-align: left;
@@ -121,6 +88,7 @@ article, p, a {
 	font-style: italic;
 	text-decoration: none;
 }
+.read-more:hover { text-decoration: none; }
 	
 @media screen and (max-width: 1024px) {
 	.wrapper {

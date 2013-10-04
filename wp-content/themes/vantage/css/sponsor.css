@@ -1,11 +1,12 @@
 /**
- *	main.css
+ *	sponsor.css
  *  
- *  general styles
+ *  sponsor page styles
  *
 **/
 .page-sponsor {
-	margin-top: 36px;
+	width: 90%;
+	margin: 36px auto 0;
 }
 
 .page-sponsor form { 

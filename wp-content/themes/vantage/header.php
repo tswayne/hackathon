@@ -9,6 +9,7 @@
  * @license GPL 2.0
  */
  $db = mysqli_connect("localhost", "hack", "hthon", "wordpress") or die("Error: " . mysqli_error($db));
+ $postid = get_the_ID();
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -23,11 +24,20 @@
 	
 	<?php wp_head(); ?>
 	<script src="http://code.jquery.com/jquery-2.0.3.js"></script>
-	<link href="<?php echo get_site_url(); ?>/wp-content/themes/vantage/css/main.css" rel="stylesheet" />
+	
+	<?php if($postid == '2')  : ?>
 	<link href="<?php echo get_site_url(); ?>/wp-content/themes/vantage/css/sponsor.css" rel="stylesheet" />
+	<? endif; ?>
+	
+	<?php if($postid == '5')  : ?>
 	<link href="<?php echo get_site_url(); ?>/wp-content/themes/vantage/css/listing.css" rel="stylesheet" />
+	<? endif; ?>
+	
+	<?php if($postid == '1')  : ?>
 	<link href="<?php echo get_site_url(); ?>/wp-content/themes/vantage/css/home.css" rel="stylesheet" />
+	
 	<link href="<?php echo get_site_url(); ?>/wp-content/themes/vantage/css/post.css" rel="stylesheet" />
+	<? endif; ?>
 		
 </head>
 
