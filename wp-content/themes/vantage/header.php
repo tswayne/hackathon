@@ -19,13 +19,13 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:600|Roboto+Slab:100|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' />
 	
-	<link href="../wp-content/themes/vantage/bootstrap.min.css" rel="stylesheet" />
+	<link href="<?php echo get_site_url(); ?>/wp-content/themes/vantage/bootstrap.min.css" rel="stylesheet" />
 	
 	<?php wp_head(); ?>
 	<script src="http://code.jquery.com/jquery-2.0.3.js"></script>
-	<link href="../wp-content/themes/vantage/css/main.css" rel="stylesheet" />
-	<link href="../wp-content/themes/vantage/css/sponsor.css" rel="stylesheet" />
-	<link href="../wp-content/themes/vantage/css/listing.css" rel="stylesheet" />
+	<link href="<?php echo get_site_url(); ?>/wp-content/themes/vantage/css/main.css" rel="stylesheet" />
+	<link href="<?php echo get_site_url(); ?>/wp-content/themes/vantage/css/sponsor.css" rel="stylesheet" />
+	<link href="<?php echo get_site_url(); ?>/wp-content/themes/vantage/css/listing.css" rel="stylesheet" />
 		
 </head>
 

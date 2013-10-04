@@ -7,7 +7,7 @@
 	<img src="http://placehold.it/360x40" alt=""/>
 </footer>
 
-<script src="../wp-content/themes/vantage/js/bootstrap.min.js"></script>
+<script src="<?php echo get_site_url(); ?>/wp-content/themes/vantage/js/bootstrap.min.js"></script>
 
 </body>
 </html>
